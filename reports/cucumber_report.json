@@ -1,0 +1,487 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "manage-tasks-in-the-to-do-app;add-a-new-task",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Add a new task",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2579199333
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2074132666.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "I open the To-Do app",
+            "match": {
+              "location": "step_definitions/todoSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2022471375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 5,
+            "name": "I enter \"Test Task 1\" in the \"Add a new task...\" input field",
+            "match": {
+              "location": "step_definitions/todoSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1174507958
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I click the \"Add Task\" button",
+            "match": {
+              "location": "step_definitions/todoSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2070496166
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I should see \"Test Task 1\" in the task list",
+            "match": {
+              "location": "step_definitions/todoSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2076274084.0000002
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 65270790.00000001
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-tasks-in-the-to-do-app;edit-an-existing-task",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Edit an existing task",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 968846625
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2062556375
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I open the To-Do app",
+            "match": {
+              "location": "step_definitions/todoSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2027762790
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 11,
+            "name": "I add a task \"Test Task 1\" to the task list",
+            "match": {
+              "location": "step_definitions/todoSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2214562374
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "I click the \"Edit\" button for the task \"Test Task 1\"",
+            "match": {
+              "location": "step_definitions/todoSteps.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2158191416
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I update the text to \"Updated Task 1\"",
+            "match": {
+              "location": "step_definitions/todoSteps.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2019987916
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "I should see \"Updated Task 1\" in the task list",
+            "match": {
+              "location": "step_definitions/todoSteps.js:32"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2044987790
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61994458
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-tasks-in-the-to-do-app;delete-a-task",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Delete a task",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1057673542
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2050245332
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I open the To-Do app",
+            "match": {
+              "location": "step_definitions/todoSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2020678124
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "I add a task \"Test Task 1\" to the task list",
+            "match": {
+              "location": "step_definitions/todoSteps.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2223000458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 19,
+            "name": "I click the \"Delete\" button for the task \"Test Task 1\"",
+            "match": {
+              "location": "step_definitions/todoSteps.js:59"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2103772000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 20,
+            "name": "the task \"Test Task 1\" should no longer appear in the task list",
+            "match": {
+              "location": "step_definitions/todoSteps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7122258708
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 61583915
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-tasks-in-the-to-do-app;add-multiple-tasks",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Add multiple tasks",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1023375790
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2044336458
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 23,
+            "name": "I open the To-Do app",
+            "match": {
+              "location": "step_definitions/todoSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2018874832
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I enter \"Task 1\" in the \"Add a new task...\" input field",
+            "match": {
+              "location": "step_definitions/todoSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1191005875
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I click the \"Add Task\" button",
+            "match": {
+              "location": "step_definitions/todoSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2080560125
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 26,
+            "name": "I enter \"Task 2\" in the \"Add a new task...\" input field",
+            "match": {
+              "location": "step_definitions/todoSteps.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1081392457
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 27,
+            "name": "I click the \"Add Task\" button",
+            "match": {
+              "location": "step_definitions/todoSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2064078458.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 28,
+            "name": "I should see \"Task 1\" and \"Task 2\" in the task list",
+            "match": {
+              "location": "step_definitions/todoSteps.js:83"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2120653081.9999998
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 59238042
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "manage-tasks-in-the-to-do-app;ensure-empty-input-is-not-allowed",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "Ensure empty input is not allowed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 952198540
+            }
+          },
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2061591583.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 31,
+            "name": "I open the To-Do app",
+            "match": {
+              "location": "step_definitions/todoSteps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2025269999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "I leave the \"Add a new task...\" input field empty",
+            "match": {
+              "location": "step_definitions/todoSteps.js:91"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1066320708
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 33,
+            "name": "I click the \"Add Task\" button",
+            "match": {
+              "location": "step_definitions/todoSteps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2074611041
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 34,
+            "name": "I should see an error message \"Please enter an action item first!\"",
+            "match": {
+              "location": "step_definitions/todoSteps.js:97"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2037423125
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 60336957
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "manage-tasks-in-the-to-do-app",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Manage tasks in the To-Do app",
+    "tags": [],
+    "uri": "features/todo.feature"
+  }
+]

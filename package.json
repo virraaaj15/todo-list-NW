@@ -1,0 +1,32 @@
+{
+  "name": "todo-list",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx nightwatch",
+    "e2e-test": "mkdirp report && npx cucumber-js --require cucumber.conf.js --require step_definitions/**/*.js --format json:report/cucumber_report.json features/**/*.feature",
+    "generate-report": "node generateReport.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A simple to-do list project with Nightwatch and Cucumber integration.",
+  "devDependencies": {
+    "@cucumber/cucumber": "^8.1.2",
+    "braces": "^3.0.3",
+    "chromedriver": "^132.0.0",
+    "cucumber-html-reporter": "^6.0.0",
+    "micromatch": "^4.0.8",
+    "mkdirp": "^3.0.1",
+    "nightwatch": "^3.11.0",
+    "nightwatch-html-reporter": "^2.0.6",
+    "pug": "^3.0.2",
+    "pug-code-gen": "^3.0.3",
+    "xml2js": "^0.6.2",
+    "xunit-viewer": "^5.2.0"
+  },
+  "dependencies": {
+    "cucumber": "^6.0.7",
+    "nightwatch-api": "^3.0.2"
+  }
+}
